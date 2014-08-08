@@ -3,8 +3,8 @@
 import os, hashlib
 from collections import defaultdict
 
-print "enter root directory under which all music is stored: "
-music_dir = raw_input()
+
+music_dir = raw_input("enter root directory under which all music is stored: ")
 
 song_paths = set()
 
